@@ -1,0 +1,57 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 100vh;
+  font-family: 'Roboto';
+}
+.google-logo {
+  width: 150px;
+  height: 55px;
+}
+
+@media screen and (min-width: 768px) {
+  .google-logo {
+    width: 432px;
+    height: 140px;
+  }
+}
+.suggestions-list-container {
+  background-color: white;
+  box-shadow: 0px 0px 12px 0px #bfbfbf;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 300px;
+  margin-top: 34px;
+}
+@media screen and (min-width: 768px) {
+  .suggestions-list-container {
+    width: 600px;
+    border-radius: 20px;
+    margin-top: 48px;
+  }
+}
+.search-container {
+  display: flex;
+  align-items: center;
+}
+.search-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.search-input {
+  color: #64748b;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+.lists-container {
+  padding-left: 0px;
+  list-style-type: none;
+}

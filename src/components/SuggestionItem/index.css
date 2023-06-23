@@ -1,0 +1,28 @@
+.suggestion-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 16px;
+}
+.suggestion {
+  font-size: 15px;
+  color: #475569;
+  margin: 0;
+}
+
+.arrow-logo {
+  width: 18px;
+  height: 18px;
+}
+@media screen and (min-width: 768px) {
+  .suggestion {
+    font-size: 20px;
+  }
+  .arrow-logo {
+    height: 24px;
+    width: 24px;
+  }
+}
